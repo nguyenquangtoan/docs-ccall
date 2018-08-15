@@ -1,6 +1,6 @@
 # Hướng dẫn sử dụng CCALL Softphone
 
-Tài liệu hướng dẫn cài đặt và sử dụng CCALL Softphone cho khách hàng sử dụng tổng đài CCALL Cloud
+Tài liệu hướng dẫn cài đặt và sử dụng CCALL Softphone cho khách hàng sử dụng tổng đài CCALL Cloud.
 
 ## Đăng ký
 
@@ -125,3 +125,4 @@ DND từ chối nhận cuộc gọi nhưng vẫn lưu lại lịch sử cuộc g
 ![](.gitbook/assets/11.png)
 
 Hãy liên lạc với chúng tôi qua số điện thoại: **1900 1563** hoặc qua email: **support@epacific.com.vn** để được tư vấn chi tiết.
+
