@@ -1,14 +1,14 @@
 # Hướng dẫn cấu hình điện thoại Fanvil
 
-Lắp đặt thiết bị điện thoại IP Phone với [Hướng dẫn lắp đặt điện thoại Fanvil](https://docs.ccall.vn/huong-dan-lap-dat-dien-thoai-fanvil), sau đó nhấn **OK** 2 lần để thấy địa chỉ IP của thiết bị. Ví dụ: **2** **IP: 10.0.0.104**
+Để lắp đặt thiết bị điện thoại IP Phone tham khảo [Hướng dẫn lắp đặt điện thoại Fanvil](https://docs.ccall.vn/huong-dan-lap-dat-dien-thoai-fanvil), sau khi hoàn thành việc lắp đặt bạn cần khai báo thông tin cấu hình cho thiết bị. Nhấn **OK** 2 lần để có địa chỉ IP của thiết bị. Ví dụ như trong hình: **2** **IP: 10.0.0.104**
 
 ![](.gitbook/assets/12.png)
 
-Trong trường hợp mục **2 IP: Negotiating** bạn cần kiểm tra lại dây mạng kết nối với điện thoại hoặc thiết bị cấp DHCP của hệ thống mạng LAN.
+Trong trường hợp mục **2 IP: Negotiating** bạn cần kiểm tra lại dây mạng kết nối với điện thoại, modem, switch, . . . hoặc thiết bị cấp DHCP của hệ thống mạng LAN.
 
 ![](.gitbook/assets/20180815_181029.jpg)
 
-Bật trình duyệt web sau đó truy cập vào trang cấu hình của điện thoại IP Phone thông qua địa chỉ IP của thiết bị. Trong trường hợp này IP của thiết bị là **10.0.0.104.** Đăng nhập với thông tin **User / Password: admin / admin .**
+Bật trình duyệt web, truy cập vào trang cấu hình của điện thoại IP Phone thông qua địa chỉ IP của thiết bị. Trong trường hợp này IP của thiết bị là **10.0.0.104,** đăng nhập với thông tin **User / Password: admin / admin .**
 
 ![](.gitbook/assets/screen-shot-2018-08-15-at-18.07.35.png)
 
@@ -30,6 +30,8 @@ Bạn cần khai báo các thông tin như hình để có thể hoàn thành đ
 * **Activate: Tích như hình**
 
 Sau đó nhấn **Apply** để lưu lại cấu hình.
+
+`Lưu ý: Thông tin cấu hình được gửi cho bạn thông qua email kích hoạt tài khoản khi bạn đăng ký sử dụng dịch vụ CCALL Cloud.`
 
 ![](.gitbook/assets/screen-shot-2018-08-15-at-18.08.00.png)
 
