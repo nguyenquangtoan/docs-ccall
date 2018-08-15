@@ -1,0 +1,41 @@
+# Hướng dẫn cấu hình điện thoại Fanvil
+
+Lắp đặt thiết bị điện thoại IP Phone với [Hướng dẫn lắp đặt điện thoại Fanvil](https://docs.ccall.vn/huong-dan-lap-dat-dien-thoai-fanvil), sau đó nhấn **OK** 2 lần để thấy địa chỉ IP của thiết bị. Ví dụ: **2** **IP: 10.0.0.104**
+
+![](.gitbook/assets/12.png)
+
+Trong trường hợp mục **2 IP: Negotiating** bạn cần kiểm tra lại dây mạng kết nối với điện thoại hoặc thiết bị cấp DHCP của hệ thống mạng LAN.
+
+![](.gitbook/assets/20180815_181029.jpg)
+
+Bật trình duyệt web sau đó truy cập vào trang cấu hình của điện thoại IP Phone thông qua địa chỉ IP của thiết bị. Trong trường hợp này IP của thiết bị là **10.0.0.104.** Đăng nhập với thông tin **User / Password: admin / admin .**
+
+![](.gitbook/assets/screen-shot-2018-08-15-at-18.07.35.png)
+
+Bấm vào tab **Line** được khoanh tròn bên trái như hình để tiếp tục cấu hình cho thiết bị.
+
+![](.gitbook/assets/screen-shot-2018-08-15-at-18.07.47.png)
+
+Bạn cần khai báo các thông tin như hình để có thể hoàn thành đăng ký máy nhánh nội bộ cho thiết bị điện thoại IP Phone:
+
+* Username: Số máy nhánh nội bộ \(Extension\)
+* Display name: Tên người sử dụng \(Đặt tuỳ ý\)
+* Authentication Name: Số máy nhánh nội bộ \(Extension\)
+* Authentication Password: Mật khẩu tương ứng của máy nhánh \(Password extension\)
+* SIP Proxy Server Address: Domain tổng đài của bạn
+* SIP Proxy Server Port: 5060
+* Backup Proxy Server Address: **125.212.229.3**
+* Backup Proxy Server Port: 5060
+* Outbound proxy add.: **210.211.108.3**
+* **Activate: Tích như hình**
+
+Sau đó nhấn **Apply** để lưu lại cấu hình.
+
+![](.gitbook/assets/screen-shot-2018-08-15-at-18.08.00.png)
+
+**Line Status: Registered** báo đăng ký thành công
+
+
+
+Hãy liên lạc với chúng tôi qua số điện thoại: **1900 1563** hoặc qua email: **support@epacific.com.vn** để được tư vấn chi tiết.
+
