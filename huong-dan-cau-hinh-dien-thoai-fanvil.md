@@ -37,7 +37,5 @@ Sau đó nhấn **Apply** để lưu lại cấu hình.
 
 **Line Status: Registered** báo đăng ký thành công
 
-
-
 Hãy liên lạc với chúng tôi qua số điện thoại: **1900 1563** hoặc qua email: **support@epacific.com.vn** để được tư vấn chi tiết.
 

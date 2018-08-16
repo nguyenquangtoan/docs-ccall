@@ -139,5 +139,5 @@ i.2/Có phân trang
 
  Ví dụ trong hệ thống có 6 Extension từ 100 đến 106. Sau khi gọi API kết qua trả về như trong hình trên là hiện tại có 2 Ext đang online là 100 và 101 
 
-END!
+Hãy liên lạc với chúng tôi qua số điện thoại: **1900 1563** hoặc qua email: **support@epacific.com.vn** để được tư vấn chi tiết.
 
