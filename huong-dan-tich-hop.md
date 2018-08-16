@@ -19,7 +19,7 @@ description: >-
 
  Tất cả các request đều yêu cầu giá trị cho tham số "**api\_key**" và **"api\_secret**", các giá trị này sẽ được ePacific cung cấp. 
 
-**1. Truy xuất dữ liệu CDR theo khoảng thời gian**
+## **1. Truy xuất dữ liệu CDR theo khoảng thời gian**
 
  Endpoint: **https://api.ccall.vn/cdrs/json**
 
@@ -109,7 +109,7 @@ i.2/Có phân trang
 | :--- | :--- |
 
 
-**2. Truy xuất dữ liệu CDRs theo “Call ID”**
+## **2. Truy xuất dữ liệu CDRs theo “Call ID”**
 
 **a./ Cấu trúc submit request\_data \(JSON Encoded\):**
 
@@ -119,7 +119,7 @@ i.2/Có phân trang
 
 ![](.gitbook/assets/api-callid-re1.png)
 
-**3. Lấy danh sách Extension đang Registered \(Online\):** 
+## **3. Lấy danh sách Extension đang Registered \(Online\):** 
 
  Endpoint: **https://api.ccall.vn/ext\_reg/json**
 
