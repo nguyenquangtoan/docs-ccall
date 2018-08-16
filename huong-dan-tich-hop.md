@@ -9,7 +9,7 @@ description: >-
 
 **API end point**
 
-                  Tất cả các request được submmit thông qua base URL.
+ Tất cả các request được submmit thông qua base URL.
 
 **HTTP Methods**
 
@@ -21,7 +21,7 @@ description: >-
 
 **1. Truy xuất dữ liệu CDR theo khoảng thời gian**
 
-Endpoint: **https://api.ccall.vn/cdrs/json**
+ Endpoint: **https://api.ccall.vn/cdrs/json**
 
 **a./ Cấu trúc submit request\_data \(JSON Encoded\):**
 
@@ -121,7 +121,7 @@ i.2/Có phân trang
 
 **3. Lấy danh sách Extension đang Registered \(Online\):** 
 
-Endpoint: **https://api.ccall.vn/ext\_reg/json**
+ Endpoint: **https://api.ccall.vn/ext\_reg/json**
 
 **a./ Cấu trúc submit request\_data \(JSON Encoded\):**
 
