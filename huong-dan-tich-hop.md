@@ -1,6 +1,6 @@
 ---
 description: >-
-  Ngoài việc sử dung thư viện JSSIP (jssip.net) để lập trình điều khiển cuộc
+  Ngoài việc sử dụng thư viện JSSIP (jssip.net) để lập trình điều khiển cuộc
   gọi. Tài liệu này sẽ giúp bạn lấy được thông tin chi tiết cuộc gọi (CDR), file
   ghi âm cuộc gọi, máy nhánh online
 ---
