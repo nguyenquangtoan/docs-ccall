@@ -1,21 +1,16 @@
----
-description: >-
-  Ngoài việc sử dụng thư viện JSSIP (jssip.net) để lập trình điều khiển cuộc
-  gọi. Tài liệu này sẽ giúp bạn lấy được thông tin chi tiết cuộc gọi (CDR), file
-  ghi âm cuộc gọi, máy nhánh online
----
-
 # Hướng dẫn tích hợp lấy CDR, ghi âm, máy nhánh online
 
-**API end point**
+Ngoài việc sử dụng thư viện [JSSIP](http://jssip.net/) để lập trình điều khiển cuộc gọi. Tài liệu này sẽ giúp bạn lấy được thông tin chi tiết cuộc gọi \(CDR\), file ghi âm cuộc gọi, máy nhánh online.
+
+#### **API end point**
 
  Tất cả các request được submmit thông qua base URL.
 
-**HTTP Methods**
+#### **HTTP Methods**
 
  Tất cả các request được submit thông qua phương thức HTTP POST, "Content-Type" cho phương thức POST là "application/x-www-form-urlencoded" và "application/json"
 
-**Authentication**
+#### **Authentication**
 
  Tất cả các request đều yêu cầu giá trị cho tham số "**api\_key**" và **"api\_secret**", các giá trị này sẽ được ePacific cung cấp. 
 
@@ -23,11 +18,11 @@ description: >-
 
  Endpoint: **https://api.ccall.vn/cdrs/json**
 
-**a./ Cấu trúc submit request\_data \(JSON Encoded\):**
+### **Cấu trúc submit request\_data \(JSON Encoded\):**
 
 ![](.gitbook/assets/api-submission.png)
 
-**Mô tả fields:**
+#### **Mô tả fields**
 
  **api\_key, api\_secret** \(Bất buộc\) : ePacific sẽ cung cấp cặp key này cho khách hàng
 
@@ -51,19 +46,19 @@ page: **1** \(số trang hiện tại\)
 
 limit: **50** \(số dòng cho một trang\)
 
-**b./ Cấu trúc response data \(JSON Encoded\):**
+### **Cấu trúc response data \(JSON Encoded\):**
 
-i1./Không phân trang
+#### Không phân trang
 
 ![](.gitbook/assets/api-nonpage.png)
 
-i.2/Có phân trang
+#### Có phân trang
 
 ![](.gitbook/assets/api-paging.png)
 
 
 
-**Mô tả fields**
+#### **Mô tả fields**
 
  "**direction**" : hướng cuộc gọi
 
@@ -111,11 +106,11 @@ i.2/Có phân trang
 
 ## **2. Truy xuất dữ liệu CDRs theo “Call ID”**
 
-**a./ Cấu trúc submit request\_data \(JSON Encoded\):**
+### **Cấu trúc submit request\_data \(JSON Encoded\):**
 
 ![](.gitbook/assets/api-callid.png)
 
-**b./ Cấu trúc response data \(JSON Encoded\):**
+### **Cấu trúc response data \(JSON Encoded\):**
 
 ![](.gitbook/assets/api-callid-re1.png)
 
@@ -123,21 +118,25 @@ i.2/Có phân trang
 
  Endpoint: **https://api.ccall.vn/ext\_reg/json**
 
-**a./ Cấu trúc submit request\_data \(JSON Encoded\):**
+### **Cấu trúc submit request\_data \(JSON Encoded\):**
 
 ![](.gitbook/assets/api-ext.png)
 
-**Mô tả fields:**
+#### **Mô tả fields**
 
  **api\_key, api\_secret** \(Bất buộc\) : ePacific sẽ cung cấp cặp key này cho khách hàng
 
-**b./ Cấu trúc response data \(JSON Encoded\):**
+### **Cấu trúc response data \(JSON Encoded\):**
 
 ![](.gitbook/assets/api-ext-online.png)
 
 **Mô tả**
 
  Ví dụ trong hệ thống có 6 Extension từ 100 đến 106. Sau khi gọi API kết qua trả về như trong hình trên là hiện tại có 2 Ext đang online là 100 và 101 
+
+
+
+
 
 Hãy liên lạc với chúng tôi qua số điện thoại: **1900 1563** hoặc qua email: **support@epacific.com.vn** để được tư vấn chi tiết.
 
