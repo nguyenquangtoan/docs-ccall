@@ -1,5 +1,6 @@
-# Languages
+# Table of contents
 
-* [English](/en/)
-* [Tiếng Việt](/vn/)
+* [Introduction](README.md)
+* [English](en.md)
+* [Tiếng Việt](vn.md)
 
