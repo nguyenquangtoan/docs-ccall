@@ -1,5 +1,5 @@
 # Languages
 
-* [English](en/)
-* [Tiếng Việt](vn/)
+* [English](/en/)
+* [Tiếng Việt](/vn/)
 
