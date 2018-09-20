@@ -4,19 +4,19 @@ Ngoài việc sử dụng thư viện [JSSIP](http://jssip.net/) để lập tr�
 
 #### **API end point**
 
- Tất cả các request được submmit thông qua base URL.
+Tất cả các request được submmit thông qua base URL.
 
 #### **HTTP Methods**
 
- Tất cả các request được submit thông qua phương thức HTTP POST, "Content-Type" cho phương thức POST là "application/x-www-form-urlencoded" và "application/json"
+Tất cả các request được submit thông qua phương thức HTTP POST, "Content-Type" cho phương thức POST là "application/x-www-form-urlencoded" và "application/json"
 
 #### **Authentication**
 
- Tất cả các request đều yêu cầu giá trị cho tham số "**api\_key**" và **"api\_secret**", các giá trị này sẽ được ePacific cung cấp. 
+Tất cả các request đều yêu cầu giá trị cho tham số "**api\_key**" và **"api\_secret**", các giá trị này sẽ được ePacific cung cấp.
 
 ## **1. Truy xuất dữ liệu CDR theo khoảng thời gian**
 
- Endpoint: **https://api.ccall.vn/cdrs/json**
+Endpoint: [https://api.ccall.vn/cdrs/json](https://api.ccall.vn/cdrs/json)
 
 ### **Cấu trúc submit request\_data \(JSON Encoded\):**
 
@@ -24,11 +24,11 @@ Ngoài việc sử dụng thư viện [JSSIP](http://jssip.net/) để lập tr�
 
 #### **Mô tả fields**
 
- **api\_key, api\_secret** \(Bất buộc\) : ePacific sẽ cung cấp cặp key này cho khách hàng
+**api\_key, api\_secret** \(Bất buộc\) : ePacific sẽ cung cấp cặp key này cho khách hàng
 
- **param\(s\)** : date\_range, hangup\_cause, source, destination, cid\_name, direction, page, limit
+**param\(s\)** : date\_range, hangup\_cause, source, destination, cid\_name, direction, page, limit
 
- Ví dụ:
+Ví dụ:
 
 date\_range: **"date\_range" : { "from" : "", "to" : "" }** có format là "YYYY-MM-DD HH:mm"
 
@@ -38,7 +38,7 @@ source: **"1001"**
 
 destination: **"1005"**
 
-hangup\_cause: **"NORMAL\_CLEARING"** 
+hangup\_cause: **"NORMAL\_CLEARING"**
 
 direction: có 3 giá trị tương ứng là “**inbound**”, “**outbound**” và “**local**” \(Nếu trong cấu trúc submit không có param này, hệ thống sẽ truy vấn dựa vào cả 3 giá trị\)
 
@@ -56,31 +56,29 @@ limit: **50** \(số dòng cho một trang\)
 
 ![](.gitbook/assets/api-paging.png)
 
-
-
 #### **Mô tả fields**
 
- "**direction**" : hướng cuộc gọi
+"**direction**" : hướng cuộc gọi
 
- "**cid\_name**" : Caller name, tên người dùng tương ứng với extension
+"**cid\_name**" : Caller name, tên người dùng tương ứng với extension
 
- "**source**" : Caller number \(Extension\)
+"**source**" : Caller number \(Extension\)
 
- "**destination**" : Destination number \(Extension\)
+"**destination**" : Destination number \(Extension\)
 
- "**recording**" : Hyperlink dùng để tải file ghi âm
+"**recording**" : Hyperlink dùng để tải file ghi âm
 
- "**start**" : Thời gian bắt đầu thực hiện cuộc gọi
+"**start**" : Thời gian bắt đầu thực hiện cuộc gọi
 
- "**tta**" : Time to Answer, thời điểm destination trả lời tính từ thời gian bắt đầu cuộc gọi \(= giây\)
+"**tta**" : Time to Answer, thời điểm destination trả lời tính từ thời gian bắt đầu cuộc gọi \(= giây\)
 
- "**duration**" : Khoảng thời gian thoại \(có format theo hh:mm:ss\)
+"**duration**" : Khoảng thời gian thoại \(có format theo hh:mm:ss\)
 
- "**pdd**" : Post Dial Delay 
+"**pdd**" : Post Dial Delay
 
- "**mos**" : Mean Opinion Score 
+"**mos**" : Mean Opinion Score
 
- "**status**" : Hangup cause
+"**status**" : Hangup cause
 
 **“paging”:** thông tin về phân trang
 
@@ -92,9 +90,9 @@ limit: **50** \(số dòng cho một trang\)
 
 **"record\_count":** tổng số dòng
 
-**"page\_count":**  tổng số trang
+**"page\_count":** tổng số trang
 
-**"prev\_page":** trang trước \(true là có trang trước, ngược lại là false\) 
+**"prev\_page":** trang trước \(true là có trang trước, ngược lại là false\)
 
 **"next\_page":** trang sau \(true là có trang sau, ngược lại là false\)
 
@@ -114,9 +112,9 @@ limit: **50** \(số dòng cho một trang\)
 
 ![](.gitbook/assets/api-callid-re1.png)
 
-## **3. Lấy danh sách Extension đang Registered \(Online\):** 
+## **3. Lấy danh sách Extension đang Registered \(Online\):**
 
- Endpoint: **https://api.ccall.vn/ext\_reg/json**
+Endpoint: [https://api.ccall.vn/ext\_reg/json](https://api.ccall.vn/ext_reg/json)
 
 ### **Cấu trúc submit request\_data \(JSON Encoded\):**
 
@@ -124,7 +122,7 @@ limit: **50** \(số dòng cho một trang\)
 
 #### **Mô tả fields**
 
- **api\_key, api\_secret** \(Bất buộc\) : ePacific sẽ cung cấp cặp key này cho khách hàng
+**api\_key, api\_secret** \(Bất buộc\) : ePacific sẽ cung cấp cặp key này cho khách hàng
 
 ### **Cấu trúc response data \(JSON Encoded\):**
 
@@ -132,11 +130,7 @@ limit: **50** \(số dòng cho một trang\)
 
 **Mô tả**
 
- Ví dụ trong hệ thống có 6 Extension từ 100 đến 106. Sau khi gọi API kết qua trả về như trong hình trên là hiện tại có 2 Ext đang online là 100 và 101 
-
-
-
-
+Ví dụ trong hệ thống có 6 Extension từ 100 đến 106. Sau khi gọi API kết qua trả về như trong hình trên là hiện tại có 2 Ext đang online là 100 và 101
 
 Hãy liên lạc với chúng tôi qua số điện thoại: **1900 1563** hoặc qua email: **support@epacific.com.vn** để được tư vấn chi tiết.
 

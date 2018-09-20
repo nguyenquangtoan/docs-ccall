@@ -12,7 +12,7 @@ Sử dụng máy tính kết nối cùng mạng LAN với thiết bị điện t
 
 ![](.gitbook/assets/screen-shot-2018-08-15-at-18.07.35.png)
 
-Bấm vào tab **Line** bên trái ****được khoanh tròn như hình để tiếp tục cấu hình cho thiết bị.
+Bấm vào tab **Line** bên trái _\*\*_được khoanh tròn như hình để tiếp tục cấu hình cho thiết bị.
 
 ![](.gitbook/assets/screen-shot-2018-08-15-at-18.07.47.png)
 
