@@ -2,7 +2,7 @@
 
 Tài liệu hướng dẫn cài đặt và sử dụng CCALL Softphone cho khách hàng sử dụng tổng đài CCALL Cloud
 
-## Đăng ký
+## 1. Đăng ký
 
 Nếu là lần đầu tiên sử dụng, bạn cần phải đăng ký tài khoản. Để đăng kí tài khoản, bạn làm như sau:
 
@@ -24,61 +24,61 @@ Nếu là lần đầu tiên sử dụng, bạn cần phải đăng ký tài kho
 
 ![](.gitbook/assets/screen-shot-2018-08-14-at-13.46.11.png)
 
-## Đăng nhập
+## 2. Đăng nhập
 
 Nếu bạn đã đăng ký tài khoản sử dụng, bạn làm như sau:
 
 ### Cài đặt ứng dụng CCALL Softphone
 
-* Truy cập **Google Play** [tại đây](https://play.google.com/store/apps/details?id=vn.ccall.android) cho máy **Android** hoặc truy cập **Appstore** [tại đây](https://itunes.apple.com/us/app/ccall-softphone/id1386720616?mt=8) cho máy **iOS**. 
+2.1 Truy cập **Google Play** [tại đây](https://play.google.com/store/apps/details?id=vn.ccall.android) cho máy **Android** hoặc truy cập **Appstore** [tại đây](https://itunes.apple.com/us/app/ccall-softphone/id1386720616?mt=8) cho máy **iOS**. 
 
 ![](.gitbook/assets/tai-ung-dung.png)
 
-* Nhấn **Start** để bắt đầu sử dụng CCALL Softphone. Nhập số điện thoại hoặc email cùng mật khẩu bạn đã đặt trước đó sau đó nhấn **Login**. 
+2.2 Nhấn **Start** để bắt đầu sử dụng CCALL Softphone. Nhập số điện thoại hoặc email cùng mật khẩu bạn đã đặt trước đó sau đó nhấn **Login**. 
 
 ![](.gitbook/assets/1.png)
 
-* Chọn tài khoản cần kích hoạt như hình dưới và ấn **Activate** để kích hoạt tài khoản đó. 
+2.3 Chọn tài khoản cần kích hoạt như hình dưới và ấn **Activate** để kích hoạt tài khoản đó. 
 
 ![](.gitbook/assets/2.png)
 
-* CCALL Softphone sẽ tải thông tin cầu hình của tài khoản và thực hiện cài đặt ứng dụng _\(bạn cần chờ đợi trong một vài phút để hoàn thành quá trình cài đặt\)_. Nhấn vào biểu tượng **gọi tổng đài viên** để kiểm thử cuộc gọi hoặc bạn có thể đăng ký thêm một tài khoản khác và gọi trực tiếp cho nhau thông qua hệ thống tổng đài test của CCALL Softphone. Bạn đã đăng ký tổng đài CCALL Cloud nhấn vào biểu tượng **Menu** để thêm cấu hình cho máy nhánh. 
+2.4 CCALL Softphone sẽ tải thông tin cầu hình của tài khoản và thực hiện cài đặt ứng dụng _\(bạn cần chờ đợi trong một vài phút để hoàn thành quá trình cài đặt\)_. Nhấn vào biểu tượng **gọi tổng đài viên** để kiểm thử cuộc gọi hoặc bạn có thể đăng ký thêm một tài khoản khác và gọi trực tiếp cho nhau thông qua hệ thống tổng đài test của CCALL Softphone. Bạn đã đăng ký tổng đài CCALL Cloud nhấn vào biểu tượng **Menu** để thêm cấu hình cho máy nhánh. 
 
 ![](.gitbook/assets/8.png)
 
-* Nhấn **Cài đặt tài khoản** sau đó chọn **Edit Account** để thêm máy nhánh cho tổng đài CCALL Cloud của công ty bạn. 
+2.5 Nhấn **Cài đặt tài khoản** sau đó chọn **Edit Account** để thêm máy nhánh cho tổng đài CCALL Cloud của công ty bạn. 
 
 ![](.gitbook/assets/4%20%281%29.png)
 
-* Chọn **Add SIP extension**, điền thông tin **máy nhánh nội bộ**, **mật khẩu máy nhánh** tương ứng, **domain tổng đài** của bạn. Sau đó nhấn **Save** để lưu lại thông tin máy nhánh nội bộ.
+2.6 Chọn **Add SIP extension**, điền thông tin **máy nhánh nội bộ**, **mật khẩu máy nhánh** tương ứng, **domain tổng đài** của bạn. Sau đó nhấn **Save** để lưu lại thông tin máy nhánh nội bộ.
 
-  `Lưu ý: Thông tin cấu hình được gửi cho bạn thông qua email kích hoạt tài khoản khi bạn đăng ký sử dụng dịch vụ CCALL Cloud.`
+`Lưu ý: Thông tin cấu hình được gửi cho bạn thông qua email kích hoạt tài khoản khi bạn đăng ký sử dụng dịch vụ CCALL Cloud.`
 
 ![](.gitbook/assets/5%20%281%29.png)
 
-* Nhấn kích hoạt máy nhánh nội bộ vừa thêm để sử dụng, trở về màn hình **Edit Account** bằng cách nhấn vào biểu tượng **Edit Account** như trên hình. 
+2.7 Nhấn kích hoạt máy nhánh nội bộ vừa thêm để sử dụng, trở về màn hình **Edit Account** bằng cách nhấn vào biểu tượng **Edit Account** như trên hình. 
 
 ![](.gitbook/assets/6%20%281%29.png)
 
-* Lưu lại cấu hình để hoàn tất quá trình cài đặt, ngoài ra bạn có thể chọn **Tái thiết lập ứng dụng** để thoát hoàn toàn tài khoản CCALL Softphone. 
+2.8 Lưu lại cấu hình để hoàn tất quá trình cài đặt, ngoài ra bạn có thể chọn **Tái thiết lập ứng dụng** để thoát hoàn toàn tài khoản CCALL Softphone. 
 
 ![](.gitbook/assets/7.png)
 
-## Sử dụng
+## 3. Sử dụng
 
-### Thực hiện cuộc gọi
+### 3.1 Thực hiện cuộc gọi
 
 Bấm trực tiếp số máy nhánh hoặc số điện thoại cần gọi.
 
 ![](.gitbook/assets/1%20%281%29.png)
 
-### Chờ cuộc gọi
+### 3.2 Chờ cuộc gọi
 
 Nhấn vào biểu tượng **Chờ** như hình dưới để giữ cuộc gọi. Nhấn tiếp 1 lần nữa để thoát chế độ chờ.
 
 ![](.gitbook/assets/2%20%281%29.png)
 
-### Ghi âm cuộc gọi
+### 3.3 Ghi âm cuộc gọi
 
 Chủ động ghi âm cuộc gọi bằng cách nhấn vào nút **Ghi âm** như trong hình, nhấn 1 lần nữa để kết thúc quá trình ghi âm hoặc hệ thống tự kết thúc quá trình ghi âm khi kết thúc cuộc gọi. File ghi âm sẽ được lưu lại trong điện thoại của bạn.
 
@@ -88,15 +88,15 @@ Tại màn hình lịch sử cuộc gọi bạn có thể thấy được cuộc
 
 ![](.gitbook/assets/9.png)
 
-### Chuyển cuộc gọi
+### 3.4 Chuyển cuộc gọi
 
-#### Chuyển trực tiếp
+#### 3.4.1 Chuyển trực tiếp
 
 Tại màn hình cuộc gọi, nhấn nút **Chuyển** sau đó bấm số máy nhánh cần chuyển, nhấn nút **Gọi** để hoàn thành thao tác chuyển cuộc gọi.
 
 ![](.gitbook/assets/4.png)
 
-#### Chuyển có thân vấn
+#### 3.4.2 Chuyển có thân vấn
 
 Tại màn hình cuộc gọi, nhấn nút **Chuyển tham vấn** sau đó bấm số máy nhánh cần chuyển tiếp theo bấm nút **Gọi**.
 
@@ -106,7 +106,7 @@ Cuộc gọi thứ nhất đang ở trạng thái chờ và CCALL Softphone sẽ
 
 ![](.gitbook/assets/6.png)
 
-### Tạo phòng họp
+### 3.5 Tạo phòng họp
 
 Tại màn hình cuộc gọi, bạn có thể tạo nhanh phòng họp 3 hoặc nhiều người bằng cách: Nhấn nút **Họp** sau đó bấm số điện thoại của người thứ 3.
 
@@ -116,13 +116,13 @@ Khi người thứ 3 bắt máy, nhấn nút **Họp** một lần nữa để h
 
 ![](.gitbook/assets/8%20%281%29.png)
 
-### Từ chối nhận cuộc gọi
+### 3.6 Từ chối nhận cuộc gọi
 
 DND từ chối nhận cuộc gọi nhưng vẫn lưu lại lịch sử cuộc gọi đến.
 
 ![](.gitbook/assets/10.png)
 
-### Nhắn tin nội bộ
+### 3.7 Nhắn tin nội bộ
 
 ![](.gitbook/assets/11.png)
 
