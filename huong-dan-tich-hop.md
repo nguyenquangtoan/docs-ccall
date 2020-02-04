@@ -1,6 +1,23 @@
-# Hướng dẫn tích hợp lấy CDR, ghi âm, máy nhánh online
+# Hướng dẫn tích hợp JsSIP, lấy CDR, ghi âm, máy nhánh online
 
-Ngoài việc sử dụng thư viện [JSSIP](http://jssip.net/) để lập trình điều khiển cuộc gọi. Tài liệu này sẽ giúp bạn lấy được thông tin chi tiết cuộc gọi \(CDR\), file ghi âm cuộc gọi, máy nhánh online.
+## **I. Thư viện điều kiển cuộc gọi**
+
+Sử dụng thư viện [JSSIP](http://jssip.net/) để lập trình điều khiển cuộc gọi. Chi tiết tham khảo [https://jssip.net/documentation/](https://jssip.net/documentation/)
+
+Thông tin cơ bản:
+
+* SIP URI: extension@domain
+* Password: Password của extension
+* Via transport: WSS
+* Websocket URI: wss://sbcwrtchcm.ccall.vn:8080/ws hoặc wss://sbcwrtchn.ccall.vn:8080/ws
+
+Chi tiết như trong hình: 
+
+![](.gitbook/assets/image.png)
+
+## **II. Lấy lịch sử cuộc gọi và tệp tin ghi âm**
+
+Để lấy được thông tin chi tiết cuộc gọi \(CDR\), file ghi âm cuộc gọi, máy nhánh online. Ta cần dùng API
 
 #### **API end point**
 
@@ -20,7 +37,17 @@ Endpoint: [https://api.ccall.vn/cdrs/json](https://api.ccall.vn/cdrs/json)
 
 ### **Cấu trúc submit request\_data \(JSON Encoded\):**
 
-![](.gitbook/assets/api-submission.png)
+```text
+{
+	"submission" : {
+		"api_key" : "apikey",
+		"api_secret" : "apisecret",
+		"param1" : "value1",
+		"param2" : "value2",
+		"paramN" : "valueN"
+}
+}
+```
 
 #### **Mô tả fields**
 
@@ -106,7 +133,15 @@ limit: **50** \(số dòng cho một trang\)
 
 ### **Cấu trúc submit request\_data \(JSON Encoded\):**
 
-![](.gitbook/assets/api-callid.png)
+```text
+{
+	"submission" : {
+		"api_key" : "apikey",
+		"api_secret" : "apisecret",
+		"call_id" : "value"
+}
+}
+```
 
 ### **Cấu trúc response data \(JSON Encoded\):**
 
@@ -118,7 +153,14 @@ Endpoint: [https://api.ccall.vn/ext\_reg/json](https://api.ccall.vn/ext_reg/json
 
 ### **Cấu trúc submit request\_data \(JSON Encoded\):**
 
-![](.gitbook/assets/api-ext.png)
+```text
+{
+	"submission" : {
+		"api_key" : "apikey",
+		"api_secret" : "apisecret"
+}
+}
+```
 
 #### **Mô tả fields**
 

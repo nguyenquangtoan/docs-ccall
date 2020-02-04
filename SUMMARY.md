@@ -3,5 +3,5 @@
 * [Hướng dẫn sử dụng CCALL Softphone](README.md)
 * [Hướng dẫn lắp đặt điện thoại Fanvil](huong-dan-lap-dat-dien-thoai-fanvil.md)
 * [Hướng dẫn cấu hình điện thoại Fanvil](huong-dan-cau-hinh-dien-thoai-fanvil.md)
-* [Hướng dẫn tích hợp lấy CDR, ghi âm, máy nhánh online](huong-dan-tich-hop.md)
+* [Hướng dẫn tích hợp JsSIP, lấy CDR, ghi âm, máy nhánh online](huong-dan-tich-hop.md)
 
