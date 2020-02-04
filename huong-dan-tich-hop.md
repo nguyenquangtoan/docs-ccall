@@ -4,12 +4,12 @@
 
 Sử dụng thư viện [JSSIP](http://jssip.net/) để lập trình điều khiển cuộc gọi. Chi tiết tham khảo [https://jssip.net/documentation/](https://jssip.net/documentation/)
 
-Thông tin cơ bản:
+Thông tin cơ bản \(_đư_ợ_c ePacific cung cấp trong email kích hoạt dịch vụ\):_
 
-* SIP URI: extension@domain
-* Password: Password của extension
-* Via transport: WSS
-* Websocket URI: wss://sbcwrtchcm.ccall.vn:8080/ws hoặc wss://sbcwrtchn.ccall.vn:8080/ws
+* _**SIP URI:** extension@domain_
+* _**Password:** Password của extension_
+* _**Via transport:** WSS_
+* _**Websocket URI:** wss://sbcwrtchcm.ccall.vn:8080/ws hoặc wss://sbcwrtchn.ccall.vn:8080/ws_
 
 Chi tiết như trong hình: 
 
